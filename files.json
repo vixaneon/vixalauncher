@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "name": "mods/betterhud-2.0.1.jar",
+      "path": "mods/betterhud-2.0.1.jar",
+      "hash": "4f748dd7bbcdc405c15dc5dde6143a38"
+    },
+    {
+      "name": "mods/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
+      "path": "mods/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
+      "hash": "01d1cd50d90cb1b94ed9a706614ee0b0"
+    },
+    {
+      "name": "mods/iris-fabric-1.10.6+mc1.21.11.jar",
+      "path": "mods/iris-fabric-1.10.6+mc1.21.11.jar",
+      "hash": "1fad457f15178da18d7b2309b23d64a0"
+    },
+    {
+      "name": "mods/konkrete_fabric_1.9.18_MC_1.21.11.jar",
+      "path": "mods/konkrete_fabric_1.9.18_MC_1.21.11.jar",
+      "hash": "13a0bbba48a016a3ca7ac55ac1612027"
+    },
+    {
+      "name": "mods/sodium-fabric-0.8.6+mc1.21.11.jar",
+      "path": "mods/sodium-fabric-0.8.6+mc1.21.11.jar",
+      "hash": "4044f71541bdadabef0cb720a9ecc589"
+    }
+  ]
+}
