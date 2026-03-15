@@ -1,29 +1,40 @@
 {
   "files": [
     {
-      "name": "mods/betterhud-2.0.1.jar",
-      "path": "mods/betterhud-2.0.1.jar",
-      "hash": "4f748dd7bbcdc405c15dc5dde6143a38"
+      "name": "betterhud-2.0.1.jar",
+      "path": "betterhud-2.0.1.jar",
+      "sha1": "b17f0f40c050d851dbef4189439fab7b388225fb",
+      "size": 47919
     },
     {
-      "name": "mods/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
-      "path": "mods/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
-      "hash": "01d1cd50d90cb1b94ed9a706614ee0b0"
+      "name": "fabric-api-0.141.3+1.21.11.jar",
+      "path": "fabric-api-0.141.3+1.21.11.jar",
+      "sha1": "50de67eb221f0b38216da8668b09ca311327040e",
+      "size": 2412693
     },
     {
-      "name": "mods/iris-fabric-1.10.6+mc1.21.11.jar",
-      "path": "mods/iris-fabric-1.10.6+mc1.21.11.jar",
-      "hash": "1fad457f15178da18d7b2309b23d64a0"
+      "name": "fancymenu_fabric_3.8.4_MC_1.21.11.jar",
+      "path": "fancymenu_fabric_3.8.4_MC_1.21.11.jar",
+      "sha1": "f29eae539ec5f6b43666fba2a69b49e2ef9360fe",
+      "size": 4490883
     },
     {
-      "name": "mods/konkrete_fabric_1.9.18_MC_1.21.11.jar",
-      "path": "mods/konkrete_fabric_1.9.18_MC_1.21.11.jar",
-      "hash": "13a0bbba48a016a3ca7ac55ac1612027"
+      "name": "iris-fabric-1.10.6+mc1.21.11.jar",
+      "path": "iris-fabric-1.10.6+mc1.21.11.jar",
+      "sha1": "9a4dd8518bbad9e6be9edd443cfc6da74b1bb26b",
+      "size": 2805791
     },
     {
-      "name": "mods/sodium-fabric-0.8.6+mc1.21.11.jar",
-      "path": "mods/sodium-fabric-0.8.6+mc1.21.11.jar",
-      "hash": "4044f71541bdadabef0cb720a9ecc589"
+      "name": "konkrete_fabric_1.9.18_MC_1.21.11.jar",
+      "path": "konkrete_fabric_1.9.18_MC_1.21.11.jar",
+      "sha1": "734866bdeed1af0b1fa23b131bd841648af96f69",
+      "size": 771623
+    },
+    {
+      "name": "sodium-fabric-0.8.6+mc1.21.11.jar",
+      "path": "sodium-fabric-0.8.6+mc1.21.11.jar",
+      "sha1": "fa686304c63efea0456af91a0b6352f032e61e66",
+      "size": 1869752
     }
   ]
 }
