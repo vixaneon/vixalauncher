@@ -4,22 +4,8 @@
   "type": "release",
   "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
   "arguments": {
-    "game": [
-      "--version", "1.21.11",
-      "--assetsDir", "${assets_root}",
-      "--assetIndex", "${assets_index_name}",
-      "--uuid", "${auth_uuid}",
-      "--accessToken", "${auth_access_token}",
-      "--userProperties", "${user_properties}",
-      "--userType", "${user_type}"
-    ],
-    "jvm": [
-      "-DFabricMcEms=true",
-      "-Djava.library.path=${natives_directory}",
-      "-Dlauncher.name=${launcher_name}",
-      "-Dlauncher.version=${launcher_version}",
-      "-cp", "${classpath}"
-    ]
+    "game": ["--version", "1.21.11", "--assetsDir", "${assets_root}", "--assetIndex", "${assets_index_name}", "--uuid", "${auth_uuid}", "--accessToken", "${auth_access_token}", "--userProperties", "${user_properties}", "--userType", "${user_type}"],
+    "jvm": ["-DFabricMcEms=true", "-Djava.library.path=${natives_directory}", "-Dlauncher.name=${launcher_name}", "-Dlauncher.version=${launcher_version}", "-cp", "${classpath}"]
   },
   "libraries": [
     { "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17", "url": "https://maven.fabricmc.net/" },
