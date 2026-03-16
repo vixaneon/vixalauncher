@@ -39,6 +39,10 @@
     {
       "name": "reimagined-intro-1.0.0.jar",
       "path": "mods/reimagined-intro-1.0.0.jar"
+    },
+    {
+      "name": "drippyloadingscreen_fabric_3.1.0_MC_1.21.1.jar",
+      "path": "mods/drippyloadingscreen_fabric_3.1.0_MC_1.21.1.jar"
     }
   ]
 }
