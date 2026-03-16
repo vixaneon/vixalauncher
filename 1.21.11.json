@@ -6,45 +6,20 @@
   "arguments": {
     "game": [],
     "jvm": [
-      "-DFabricMcEms=true"
+      "-DFabricMcEms=true",
+      "-cp",
+      "${classpath}"
     ]
   },
   "libraries": [
-    {
-      "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "net.fabricmc:fabric-loader:0.18.4",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "org.ow2.asm:asm:9.7.1",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "org.ow2.asm:asm-analysis:9.7.1",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "org.ow2.asm:asm-commons:9.7.1",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "org.ow2.asm:asm-tree:9.7.1",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "org.ow2.asm:asm-util:9.7.1",
-      "url": "https://maven.fabricmc.net/"
-    },
-    {
-      "name": "net.fabricmc:intermediary:1.21.1",
-      "url": "https://maven.fabricmc.net/"
-    }
+    { "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17", "url": "https://maven.fabricmc.net/" },
+    { "name": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7", "url": "https://maven.fabricmc.net/" },
+    { "name": "net.fabricmc:fabric-loader:0.18.4", "url": "https://maven.fabricmc.net/" },
+    { "name": "org.ow2.asm:asm:9.7.1", "url": "https://maven.fabricmc.net/" },
+    { "name": "org.ow2.asm:asm-analysis:9.7.1", "url": "https://maven.fabricmc.net/" },
+    { "name": "org.ow2.asm:asm-commons:9.7.1", "url": "https://maven.fabricmc.net/" },
+    { "name": "org.ow2.asm:asm-tree:9.7.1", "url": "https://maven.fabricmc.net/" },
+    { "name": "org.ow2.asm:asm-util:9.7.1", "url": "https://maven.fabricmc.net/" },
+    { "name": "net.fabricmc:intermediary:1.21.1", "url": "https://maven.fabricmc.net/" }
   ]
 }
