@@ -4,17 +4,47 @@
   "type": "release",
   "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
   "arguments": {
-    "game": ["--version", "1.21.11", "--assetsDir", "${assets_root}", "--assetIndex", "${assets_index_name}", "--uuid", "${auth_uuid}", "--accessToken", "${auth_access_token}", "--userProperties", "${user_properties}", "--userType", "${user_type}"],
-    "jvm": ["-DFabricMcEms=true", "-Djava.library.path=${natives_directory}", "-Dlauncher.name=${launcher_name}", "-Dlauncher.version=${launcher_version}", "-cp", "${classpath}"]
+    "game": [],
+    "jvm": [
+      "-DFabricMcEms=true"
+    ]
   },
   "libraries": [
-    { "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17", "url": "https://maven.fabricmc.net/" },
-    { "name": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7", "url": "https://maven.fabricmc.net/" },
-    { "name": "net.fabricmc:fabric-loader:0.18.4", "url": "https://maven.fabricmc.net/" },
-    { "name": "org.ow2.asm:asm:9.7.1", "url": "https://maven.fabricmc.net/" },
-    { "name": "org.ow2.asm:asm-analysis:9.7.1", "url": "https://maven.fabricmc.net/" },
-    { "name": "org.ow2.asm:asm-commons:9.7.1", "url": "https://maven.fabricmc.net/" },
-    { "name": "org.ow2.asm:asm-tree:9.7.1", "url": "https://maven.fabricmc.net/" },
-    { "name": "org.ow2.asm:asm-util:9.7.1", "url": "https://maven.fabricmc.net/" }
+    {
+      "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:fabric-loader:0.18.4",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-util:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:intermediary:1.21.1",
+      "url": "https://maven.fabricmc.net/"
+    }
   ]
 }
